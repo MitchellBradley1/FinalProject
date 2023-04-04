@@ -50,7 +50,7 @@ Member - Monish Soundar Raj
   * **Rationale:** It allows users to view the products enlarged images, description -> to learn about the product, and to add no of quality. 
   * **Testing:** By displaying and checking the products details in this page at each building stage of the site. 
 
-  * **ID:** REQ-9. 
+* **ID:** REQ-9. 
   * **Description:**  A review section for each product.
   * **Type:** Functional.
   * **Priority:** 3
@@ -99,7 +99,7 @@ Member - Monish Soundar Raj
   * **Preconditions:** The user clicks on the search bar located in the nav-bar to make it active and searches to find shoes of a specific brand.
   * **Postconditions:** The user is presented with a page displaying the shoes of the brand the user searched for.
 
-  * **ID:** UC-2
+* **ID:** UC-2
   * **Description:** Viewing product details to make a purchase.
   * **Actors:** User, Online Shoe store.
   * **Preconditions:** The user clicks on the product that they wanted to learn more about. 
@@ -115,7 +115,7 @@ Member - Monish Soundar Raj
   * **Type of User:**  Customer
   * **Description:**  As an online shoe shopper, I should be able to read reviews written by others who previously brought the same product, so that I can make my decision on whether to purchase a product or not. And also, I need to be able to leave a review on a product I purchase, to help the future customer choose a product.
 
-  * **ID:** US-2
+* **ID:** US-2
   * **Type of User:**  Customer
   * **Description:**  As an online shoe shopper, I should be able to search for specific brand shoes, I donot want to look at all the brand shoes without having a interest to purchase them. So, having a search bar allows me look up prodcuts fast and complete the purchase soon. 
 
