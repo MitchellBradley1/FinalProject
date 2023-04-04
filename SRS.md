@@ -8,7 +8,7 @@ Fill the document out following the guidelines listed in each section. Maintain 
 
 * [Ben Jansson](bjansson@uncc.edu)
 * [Darwin Peraza](dperaza@uncc.edu)
-* [Monish Soundar Raj](mailto:msoundar@uncc.edu)
+* [Name](mmailto:email@uncc.edu)
 * [Name](mmailto:email@uncc.edu)
 
 ## Revisions
@@ -18,7 +18,6 @@ When a change is made to the document, a new revision should be created. The rev
 | Version | Date | Description | Author | Reviewed By |
 | --- | --- | --- | --- | --- |
 | 1.0 | 03/22/23 | Initial draft | [David Gary](mailto:dgary9@uncc.edu) | [David Gary](mailto:dgary@uncc.edu) |
-
 
 ## Table of Contents
 
@@ -31,32 +30,12 @@ When a change is made to the document, a new revision should be created. The rev
 
 ## Introduction
 
-Group 6, we will be building a online store for selling shoes. We are planning to use HTML, CSS, and JavaScript for the Front-end. And for the back-end for now we are planning on using Flask for handling all the API requests from the Front-end.  Users using our store will be able to look up different brand shoes, provide review on shoes, add and remove shoes from cart, will be able to search for a specific brand of shoes, and finally will be able to provide us with there shipping details.
+In this section, you should give a brief overview of what your project will be. Describe the software system you are building and what problems it solves. You should also give a short description of the stakeholders (users of the system) and what their needs are. There is no set formatting requirement, but you should maintain a consistent structure across future sections. Not all members must contribute to this section.
 
 ## Requirements
-Member - Monish Soundar Raj
 
-* **ID:** REQ-7. 
-  * **Description:** A search bar to search for the items in the web application. 
-  * **Type:** Functional.
-  * **Priority:** 4
-  * **Rationale:** It allows users to search products that they want instantly, instead of looking at all the products available in the site.
-  * **Testing:** By searching for products of specific brands myself before making the site public.
+Each group member must supply at least three functional requirements for the project. Each requirement should be written in the following format:
 
-* **ID:** REQ-8. 
-  * **Description:** A product siplay page to show the products in a enlarged view, and to display all the product description, price, and quality selection. 
-  * **Type:** Functional.
-  * **Priority:** 2
-  * **Rationale:** It allows users to view the products enlarged images, description -> to learn about the product, and to add no of quality. 
-  * **Testing:** By displaying and checking the products details in this page at each building stage of the site. 
-
-* **ID:** REQ-9. 
-  * **Description:**  A review section for each product.
-  * **Type:** Functional.
-  * **Priority:** 3
-  * **Rationale:** It allows users to decided which product to buy based on the review from the previous users of the same product.
-  * **Testing:** By populating the review section of the products with fake reviews and by asking some real people to post the fake reviews for some products.
-  
 Ben Jansson:
 * **ID:** REQ-1
   * **Description:** Comment section is a section where customers can leave comments on the website, products etc.
@@ -79,45 +58,45 @@ Ben Jansson:
 
 ## Constraints
 
+Ben Jansson constraints: 1) Using HTML for the website, while using html to create the website using a programming language might be better but would take a lot longer. 2) Another constraint might be to figure out what kind of shoe we want to sell mens, womens, kids, sytle, sports etc.
+
 In this section, you should list any constraints that you have for the project. Each group member must supply at least two constraints. These can be constraints on the project itself, the software system, or the stakeholders. Constraints can be anything that limits the scope of the project. For example, that this project's template code is written using Flask and Python constitutes a constraint on the backend of the project. Constraints can also be things like the required timeline of the project. Be creative.
-
-Member - Monish Soundar Raj
-
-constraints: 
-1) Time available to complete the project is minor.
-2) As the template code is written in Flask, it might be time consuming to learn about it first before working on the project.
 
 ## Use Cases
 
 In this section, you should list use cases for the project. Use cases are a thorough description of how the system will be used. Each group member must supply at least two use cases. Each use case should be written in the following format:
 
-Member - Monish Soundar Raj
+Ben Jansson:
 
 * **ID:** UC-1
-  * **Description:** Searching for shoes by brand.
-  * **Actors:** User, Online Shoe store.
-  * **Preconditions:** The user clicks on the search bar located in the nav-bar to make it active and searches to find shoes of a specific brand.
-  * **Postconditions:** The user is presented with a page displaying the shoes of the brand the user searched for.
+  * **Description:** The user can look through the products that we sell through pictures/decriptions and figure out what shoe they want to buy. 
+  * **Actors:** The only actors here would be the customer shopping given that the store is a online website.
+  * **Preconditions:** The website must be working for the customer to make a purchase and have a valid credit card to enter into the website to pay.
+  * **Postconditions:** The website should get the customers order and the customer must have entered their address for the website to ship the product to.
 
 * **ID:** UC-2
-  * **Description:** Viewing product details to make a purchase.
-  * **Actors:** User, Online Shoe store.
-  * **Preconditions:** The user clicks on the product that they wanted to learn more about. 
-  * **Postconditions:** The user is displayed with a product display page, which shows the user the selected product desciption, price, let's users select the quantity, let's users select the size and let's user to add the product to cart or buy it with one click.
+  * **Description:** A comment section can be interacted with by the customer entering in their comment and psoting it to the website for other people to read.
+  * **Actors:** An actor would only be a customer, in this case who is commenting on the website.
+  * **Preconditions:** The website must ahve a comment section and for the comment entered to be posted on the website.
+  * **Postconditions:** The comment entered by the user needs to be posted and be able to be seen on the website.
 
 ## User Stories
 
 In this section, you should list user stories for the project. User stories are a short description of how a user will be interacting with the system. Each group member must supply at least two user stories. Each user story should be written in the following format:
 
-Member - Monish Soundar Raj
+Ben Jansson:
 
 * **ID:** US-1
-  * **Type of User:**  Customer
-  * **Description:**  As an online shoe shopper, I should be able to read reviews written by others who previously brought the same product, so that I can make my decision on whether to purchase a product or not. And also, I need to be able to leave a review on a product I purchase, to help the future customer choose a product.
+  * **Type of User:** Customer
+  * **Description:** I want to look at pictures of different shoes that I want to buy, I expect to see the multiple different pictures/veiws of the product and buy the product I want
 
 * **ID:** US-2
-  * **Type of User:**  Customer
-  * **Description:**  As an online shoe shopper, I should be able to search for specific brand shoes, I donot want to look at all the brand shoes without having a interest to purchase them. So, having a search bar allows me look up prodcuts fast and complete the purchase soon. 
+  * **Type of User:** Customer
+  * **Description:** I have a comment on the product that I bought and would like to leave it on the website for people to see what I think about it, I expect to enter the comment on the wbesite and for the comment to be posted on the websitefor other people to see. 
+
+* **ID:** A unique identifier for the user story. This should be a number that is unique across the entire document (something like US-1, US-2, etc. but be sure to replace the word `ID` with the unique identifier).
+  * **Type of User:** The type of user that the user story is for. This should be a single word that describes the type of user. For example, a user story for a customer might be `Customer` and a user story for an administrator might be `Admin`.
+  * **Description:** A description of the user story that gives a narrative from that user's perspective. This can be any length, but it must paint the picture of what the user wants to do, how they intend to do it, why they want to, and what they expect to happen.
 
 ## Glossary
 
