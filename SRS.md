@@ -7,7 +7,7 @@ Fill the document out following the guidelines listed in each section. Maintain 
 ## Group Members
 
 * [Ben Jansson](bjansson@uncc.edu)
-* [Name](mmailto:email@uncc.edu)
+* [Darwin Peraza](dperaza@uncc.edu)
 * [Name](mmailto:email@uncc.edu)
 * [Name](mmailto:email@uncc.edu)
 
