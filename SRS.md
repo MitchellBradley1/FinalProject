@@ -35,6 +35,7 @@ In this section, you should give a brief overview of what your project will be. 
 ## Requirements
 
 Each group member must supply at least three functional requirements for the project. Each requirement should be written in the following format:
+
 Ben Jansson: Comment section, contact page and product images
 
 * **ID:** A unique identifier for the requirement. This should be a number that is unique across the entire document (something like REQ-1, REQ-2, etc. but be sure to replace the word `ID` with the unique identifier).
