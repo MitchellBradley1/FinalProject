@@ -51,9 +51,9 @@ Ben Jansson:
   * **Testing:** Try an actual email or number and see if you can contact it and someone will get the message
 * **ID:** REQ-3
   * **Description:** Product images so the customer can see what the product looks like
-  * **Type:** Non-Functional
+  * **Type:** Functional
   * **Priority:** 1
-  * **Rationale:** This is very important so the customer can see what shoes they want to look at and buy
+  * **Rationale:** This is very important so the customer can scroll through to see different veiws and see what shoes they want to look at and buy
   * **Testing:** Put a random image to see if it shows up and then the actaul picture of the product
 
 ## Constraints
