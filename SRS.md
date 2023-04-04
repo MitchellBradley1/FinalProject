@@ -7,7 +7,7 @@ Fill the document out following the guidelines listed in each section. Maintain 
 ## Group Members
 
 * [Ben Jansson](bjansson@uncc.edu)
-* [Name](mmailto:email@uncc.edu)
+* [Darwin Peraza](dperaza@uncc.edu)
 * [Name](mmailto:email@uncc.edu)
 * [Name](mmailto:email@uncc.edu)
 
@@ -36,22 +36,29 @@ In this section, you should give a brief overview of what your project will be. 
 
 Each group member must supply at least three functional requirements for the project. Each requirement should be written in the following format:
 
-Ben Jansson: Comment section, contact page and product images
-
-* **ID:** A unique identifier for the requirement. This should be a number that is unique across the entire document (something like REQ-1, REQ-2, etc. but be sure to replace the word `ID` with the unique identifier).
-  * **Description:** A short description of the requirement. This should be a single sentence that describes the requirement. Do not replace the word `Description` with the actual description. Put the description in the space where these instructions are written. Maintain that practice for all future sections.
-  * **Type:** The type of requirement. Should be either `Functional` or `Non-Functional`.
-  * **Priority:** The priority of the requirement. This should be a number between 1 and 5, with 1 being the highest priority and 5 being the lowest priority.
-  * **Rationale:** A short description of why the requirement is important. This should be a single sentence that describes why the requirement is important.
-  * **Testing:** A short description of how the requirement can be tested. This should be a single sentence that describes how the requirement can be tested.
-* **ID:** A unique identifier for the requirement. This should be a number that is unique across the entire document (something like REQ-1, REQ-2, etc. but be sure to replace the word `ID` with the unique identifier).
-  * **Description:** A short description of the requirement. This should be a single sentence that describes the requirement.
-  * **Type:** The type of requirement. Should be either `Functional` or `Non-Functional`.
-  * **Priority:** The priority of the requirement. This should be a number between 1 and 5, with 1 being the highest priority and 5 being the lowest priority.
-  * **Rationale:** A short description of why the requirement is important. This should be a single sentence that describes why the requirement is important.
-  * **Testing:** A short description of how the requirement can be tested. This should be a single sentence that describes how the requirement can be tested.
+Ben Jansson:
+* **ID:** REQ-1
+  * **Description:** Comment section is a section where customers can leave comments on the website, products etc.
+  * **Type:** Functional
+  * **Priority:** 4
+  * **Rationale:** Websites usually have a comment section so that the customer can get there opion out there
+  * **Testing:** Try typing a comment and post it to see if it shows up on the website
+* **ID:** REQ-2
+  * **Description:** A contact page where a customer can eamil or call with questions or concerns
+  * **Type:** Functional
+  * **Priority:** 3
+  * **Rationale:** This is important if the customer wants to get in contact with the company about the webiste or products
+  * **Testing:** Try an actual email or number and see if you can contact it and someone will get the message
+* **ID:** REQ-3
+  * **Description:** Product images so the customer can see what the product looks like
+  * **Type:** Functional
+  * **Priority:** 1
+  * **Rationale:** This is very important so the customer can scroll through to see different veiws and see what shoes they want to look at and buy
+  * **Testing:** Put a random image to see if it shows up and then the actaul picture of the product
 
 ## Constraints
+
+Ben Jansson constraints: 1) Using HTML for the website, while using html to create the website using a programming language might be better but would take a lot longer. 2) Another constraint might be to figure out what kind of shoe we want to sell mens, womens, kids, sytle, sports etc.
 
 In this section, you should list any constraints that you have for the project. Each group member must supply at least two constraints. These can be constraints on the project itself, the software system, or the stakeholders. Constraints can be anything that limits the scope of the project. For example, that this project's template code is written using Flask and Python constitutes a constraint on the backend of the project. Constraints can also be things like the required timeline of the project. Be creative.
 
@@ -59,15 +66,33 @@ In this section, you should list any constraints that you have for the project. 
 
 In this section, you should list use cases for the project. Use cases are a thorough description of how the system will be used. Each group member must supply at least two use cases. Each use case should be written in the following format:
 
-* **ID:** A unique identifier for the use case. This should be a number that is unique across the entire document (something like UC-1, UC-2, etc. but be sure to replace the word `ID` with the unique identifier).
-  * **Description:** A description of the use case that gives the user a high-level overview of how the system is interacted with.
-  * **Actors:** A list of the actors that are involved in the use case. Only include the actors that are directly involved. Actors are the people or things that interact with the system. For example, when ordering at a fast food restaurant, one might have the following actors: the customer, the cashier, and the cook. But only the customer and the cashier are directly involved in the use case of ordering food. The cook is not directly involved in the use case of ordering food.
-  * **Preconditions:** A list of the preconditions for the use case. This should be a list of the preconditions for the use case, which are the conditions that must be met before the use case can be executed. Continuing with the restaurant example, the customer must have money in their wallet and the cashier must be logged in to the system before the use case of ordering food can be executed.
-  * **Postconditions:** A list of the postconditions for the use case. This should be a list of the postconditions for the use case, which are the conditions that must be met after the use case has been executed. Continuing with the restaurant example, the customer must have their food and the cashier must have the customer's money after the use case of ordering food has been executed.
+Ben Jansson:
+
+* **ID:** UC-1
+  * **Description:** The user can look through the products that we sell through pictures/decriptions and figure out what shoe they want to buy. 
+  * **Actors:** The only actors here would be the customer shopping given that the store is a online website.
+  * **Preconditions:** The website must be working for the customer to make a purchase and have a valid credit card to enter into the website to pay.
+  * **Postconditions:** The website should get the customers order and the customer must have entered their address for the website to ship the product to.
+
+* **ID:** UC-2
+  * **Description:** A comment section can be interacted with by the customer entering in their comment and psoting it to the website for other people to read.
+  * **Actors:** An actor would only be a customer, in this case who is commenting on the website.
+  * **Preconditions:** The website must ahve a comment section and for the comment entered to be posted on the website.
+  * **Postconditions:** The comment entered by the user needs to be posted and be able to be seen on the website.
 
 ## User Stories
 
 In this section, you should list user stories for the project. User stories are a short description of how a user will be interacting with the system. Each group member must supply at least two user stories. Each user story should be written in the following format:
+
+Ben Jansson:
+
+US-1:
+  * **Type of User:** Customer
+  * **Description:** I want to look at pictures of different shoes that I want to buy, I expect to see the multiple different pictures/veiws of the product and buy the product I want
+
+US-2:
+  * **Type of User:** Customer
+  * **Description:** I have a comment on the product that I bought and would like to leave it on the website for people to see what I think about it, I expect to enter the comment on the wbesite and for the comment to be posted on the websitefor other people to see. 
 
 * **ID:** A unique identifier for the user story. This should be a number that is unique across the entire document (something like US-1, US-2, etc. but be sure to replace the word `ID` with the unique identifier).
   * **Type of User:** The type of user that the user story is for. This should be a single word that describes the type of user. For example, a user story for a customer might be `Customer` and a user story for an administrator might be `Admin`.
