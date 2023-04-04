@@ -6,8 +6,11 @@ Fill the document out following the guidelines listed in each section. Maintain 
 
 ## Group Members
 
+<<<<<<< HEAD
 * [Monish Soundar Raj](mailto:msoundar@uncc.edu)
-* [Name](mmailto:email@uncc.edu)
+* [Ben Jansson](bjansson@uncc.edu)
+* [Darwin Peraza](dperaza@uncc.edu)
+>>>>>>> 405b2c7ecc0df75ab1d25207b5ce3cfe35d32a2e
 * [Name](mmailto:email@uncc.edu)
 * [Name](mmailto:email@uncc.edu)
 
@@ -34,15 +37,8 @@ When a change is made to the document, a new revision should be created. The rev
 Group 6, we will be building a online store for selling shoes. We are planning to use HTML, CSS, and JavaScript for the Front-end. And for the back-end for now we are planning on using Flask for handling all the API requests from the Front-end.  Users using our store will be able to look up different brand shoes, provide review on shoes, add and remove shoes from cart, will be able to search for a specific brand of shoes, and finally will be able to provide us with there shipping details.
 
 ## Requirements
-Member - Monish Soundar Raj
 
-* **ID:** REQ-1. 
-  * **Description:** A search bar to search for the items in the web application. 
-  * **Type:** Functional.
-  * **Priority:** 4
-  * **Rationale:** It allows users to search products that they want instantly, instead of looking at all the products available in the site.
-  * **Testing:** By searching for products of specific brands myself before making the site public.
-
+<<<<<<< HEAD
 * **ID:** REQ-2. 
   * **Description:** A product siplay page to show the products in a enlarged view, and to display all the product description, price, and quality selection. 
   * **Type:** Functional.
@@ -56,6 +52,27 @@ Member - Monish Soundar Raj
   * **Priority:** 3
   * **Rationale:** It allows users to decided which product to buy based on the review from the previous users of the same product.
   * **Testing:** By populating the review section of the products with fake reviews and by asking some real people to post the fake reviews for some products.
+=======
+Ben Jansson:
+* **ID:** REQ-1
+  * **Description:** Comment section is a section where customers can leave comments on the website, products etc.
+  * **Type:** Functional
+  * **Priority:** 4
+  * **Rationale:** Websites usually have a comment section so that the customer can get there opion out there
+  * **Testing:** Try typing a comment and post it to see if it shows up on the website
+* **ID:** REQ-2
+  * **Description:** A contact page where a customer can eamil or call with questions or concerns
+  * **Type:** Functional
+  * **Priority:** 3
+  * **Rationale:** This is important if the customer wants to get in contact with the company about the webiste or products
+  * **Testing:** Try an actual email or number and see if you can contact it and someone will get the message
+* **ID:** REQ-3
+  * **Description:** Product images so the customer can see what the product looks like
+  * **Type:** Functional
+  * **Priority:** 1
+  * **Rationale:** This is very important so the customer can scroll through to see different veiws and see what shoes they want to look at and buy
+  * **Testing:** Put a random image to see if it shows up and then the actaul picture of the product
+>>>>>>> 405b2c7ecc0df75ab1d25207b5ce3cfe35d32a2e
 
 ## Constraints
 
