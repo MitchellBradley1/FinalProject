@@ -35,20 +35,26 @@ In this section, you should give a brief overview of what your project will be. 
 ## Requirements
 
 Each group member must supply at least three functional requirements for the project. Each requirement should be written in the following format:
-Ben Jansson: Comment section, contact page and product images
 
-* **ID:** A unique identifier for the requirement. This should be a number that is unique across the entire document (something like REQ-1, REQ-2, etc. but be sure to replace the word `ID` with the unique identifier).
-  * **Description:** A short description of the requirement. This should be a single sentence that describes the requirement. Do not replace the word `Description` with the actual description. Put the description in the space where these instructions are written. Maintain that practice for all future sections.
-  * **Type:** The type of requirement. Should be either `Functional` or `Non-Functional`.
-  * **Priority:** The priority of the requirement. This should be a number between 1 and 5, with 1 being the highest priority and 5 being the lowest priority.
-  * **Rationale:** A short description of why the requirement is important. This should be a single sentence that describes why the requirement is important.
-  * **Testing:** A short description of how the requirement can be tested. This should be a single sentence that describes how the requirement can be tested.
-* **ID:** A unique identifier for the requirement. This should be a number that is unique across the entire document (something like REQ-1, REQ-2, etc. but be sure to replace the word `ID` with the unique identifier).
-  * **Description:** A short description of the requirement. This should be a single sentence that describes the requirement.
-  * **Type:** The type of requirement. Should be either `Functional` or `Non-Functional`.
-  * **Priority:** The priority of the requirement. This should be a number between 1 and 5, with 1 being the highest priority and 5 being the lowest priority.
-  * **Rationale:** A short description of why the requirement is important. This should be a single sentence that describes why the requirement is important.
-  * **Testing:** A short description of how the requirement can be tested. This should be a single sentence that describes how the requirement can be tested.
+Ben Jansson:
+* **ID:** REQ-1
+  * **Description:** Comment section is a section where customers can leave comments on the website, products etc.
+  * **Type:** Functional
+  * **Priority:** 4
+  * **Rationale:** Websites usually have a comment section so that the customer can get there opion out there
+  * **Testing:** Try typing a comment and post it to see if it shows up on the website
+* **ID:** REQ-2
+  * **Description:** A contact page where a customer can eamil or call with questions or concerns
+  * **Type:** Functional
+  * **Priority:** 3
+  * **Rationale:** This is important if the customer wants to get in contact with the company about the webiste or products
+  * **Testing:** Try an actual email or number and see if you can contact it and someone will get the message
+* **ID:** REQ-3
+  * **Description:** Product images so the customer can see what the product looks like
+  * **Type:** Non-Functional
+  * **Priority:** 1
+  * **Rationale:** This is very important so the customer can see what shoes they want to look at and buy
+  * **Testing:** Put a random image to see if it shows up and then the actaul picture of the product
 
 ## Constraints
 
