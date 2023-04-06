@@ -35,97 +35,108 @@ In this section, you should give a brief overview of what your project will be. 
 ## Requirements
 
 Each group member must supply at least three functional requirements for the project. Each requirement should be written in the following format:
-Ben Jansson: Comment section, contact page and product images
-Darwin Peraza: trending list, wishlist tab with notficiations, create account feature
 
-Darwin Peraza:
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Ben Jansson:
+* **ID:** REQ-1
+  * **Description:** Comment section is a section where customers can leave comments on the website, products etc.
+  * **Type:** Functional
+  * **Priority:** 4
+  * **Rationale:** Websites usually have a comment section so that the customer can get there opion out there
+  * **Testing:** Try typing a comment and post it to see if it shows up on the website
+* **ID:** REQ-2
+  * **Description:** A contact page where a customer can eamil or call with questions or concerns
+  * **Type:** Functional
+  * **Priority:** 3
+  * **Rationale:** This is important if the customer wants to get in contact with the company about the webiste or products
+  * **Testing:** Try an actual email or number and see if you can contact it and someone will get the message
+* **ID:** REQ-3
+  * **Description:** Product images so the customer can see what the product looks like
+  * **Type:** Functional
+  * **Priority:** 1
+  * **Rationale:** This is very important so the customer can scroll through to see different veiws and see what shoes they want to look at and buy
+  * **Testing:** Put a random image to see if it shows up and then the actaul picture of the product
 
-* **ID: req-trendList:**
-  **Description:** This trending list would work like Amazon's shoppers like you love scroll section but keep track of the click through rates of all the products and then push the most popular ones. 
-  **Type:** Non-functional
-  **Priority** This is a five 
-  **Rationale** This is a low prioriy because while it is a nice feauture that would push sales on a site, it isn't needed and doesn't change the functionality of the site. 
-  **Testing:** This requirement could be tested by clicking on items in specific orders/amounts and seeing whether or not they appear on the list. 
+   **ID: req-trendList:**
+ **Description:** This trending list would work like Amazon's shoppers like you love scroll section but keep track of the click through rates of all the products and then push the most popular ones.
+ **Type:** Non-functional
+ **Priority** This is a five
+ **Rationale** This is a low prioriy because while it is a nice feauture that would push sales on a site, it isn't needed and doesn't change the functionality of the site.
+ **Testing:** This requirement could be tested by clicking on items in specific orders/amounts and seeing whether or not they appear on the list.
+
 
 **ID: req-wishList**
-  **Description:** This is a wishlist similar to Amazon, it creates a list of things you want and pushes and email when that thing is on sale/cheaper.
-  **Type:** Non-functional
-  **Priority:** This is a four
-  **Rationale** This allows people to continue to come back to our store when their favorite things go on sale but doesn't affect the main functionality itself.
-  **Testing**: See when an items price is lowered that an email notificaiton is sent and that wishlist items are kept in list. 
-
+ **Description:** This is a wishlist similar to Amazon, it creates a list of things you want and pushes and email when that thing is on sale/cheaper.
+ **Type:** Non-functional
+ **Priority:** This is a four
+ **Rationale** This allows people to continue to come back to our store when their favorite things go on sale but doesn't affect the main functionality itself.
+ **Testing**: See when an items price is lowered that an email notificaiton is sent and that wishlist items are kept in list.
 **ID req-UserAccount**
-  **Description:** This is a create account page that takes email and password login 
-  **Type:** Functional
-  **Priority:** This is a two
-  **Rationale** This is important as an account allows for things like cart and wishlist among other functionalities to work, also fosters customer loyalty. 
-  **Testing:** You could test by making sure the user is in the database when created. 
-
-
-* **ID:** A unique identifier for the requirement. This should be a number that is unique across the entire document (something like REQ-1, REQ-2, etc. but be sure to replace the word `ID` with the unique identifier).
-  * **Description:** A short description of the requirement. This should be a single sentence that describes the requirement. Do not replace the word `Description` with the actual description. Put the description in the space where these instructions are written. Maintain that practice for all future sections.
-  * **Type:** The type of requirement. Should be either `Functional` or `Non-Functional`.
-  * **Priority:** The priority of the requirement. This should be a number between 1 and 5, with 1 being the highest priority and 5 being the lowest priority.
-  * **Rationale:** A short description of why the requirement is important. This should be a single sentence that describes why the requirement is important.
-  * **Testing:** A short description of how the requirement can be tested. This should be a single sentence that describes how the requirement can be tested.
+ **Description:** This is a create account page that takes email and password login
+ **Type:** Functional
+ **Priority:** This is a two
+ **Rationale** This is important as an account allows for things like cart and wishlist among other functionalities to work, also fosters customer loyalty.
+ **Testing:** You could test by making sure the user is in the database when created.
 
 ## Constraints
 
-In this section, you should list any constraints that you have for the project. Each group member must supply at least two constraints. These can be constraints on the project itself, the software system, or the stakeholders. Constraints can be anything that limits the scope of the project. For example, that this project's template code is written using Flask and Python constitutes a constraint on the backend of the project. Constraints can also be things like the required timeline of the project. Be creative.
+Ben Jansson constraints: 1) Using HTML for the website, while using html to create the website using a programming language might be better but would take a lot longer. 2) Another constraint might be to figure out what kind of shoe we want to sell mens, womens, kids, sytle, sports etc.
 
-Darwin Peraza:
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+* **Developer Experience:**  When it comes to flask and python I have little experience leading to our vision not being completed exactly the way we want.
+* **Version Control:** Version control is very hard for inexperienced github users, this can create issues in our work and delay it.
 
-**Developer Experience:**  When it comes to flask and python I have little experience leading to our vision not being completed exactly the way we want. 
-
-**Version Control:** Version control is very hard for inexperienced github users, this can create issues in our work and delay it. 
 
 ## Use Cases
 
 In this section, you should list use cases for the project. Use cases are a thorough description of how the system will be used. Each group member must supply at least two use cases. Each use case should be written in the following format:
 
-* **ID:** A unique identifier for the use case. This should be a number that is unique across the entire document (something like UC-1, UC-2, etc. but be sure to replace the word `ID` with the unique identifier).
-  * **Description:** A description of the use case that gives the user a high-level overview of how the system is interacted with.
-  * **Actors:** A list of the actors that are involved in the use case. Only include the actors that are directly involved. Actors are the people or things that interact with the system. For example, when ordering at a fast food restaurant, one might have the following actors: the customer, the cashier, and the cook. But only the customer and the cashier are directly involved in the use case of ordering food. The cook is not directly involved in the use case of ordering food.
-  * **Preconditions:** A list of the preconditions for the use case. This should be a list of the preconditions for the use case, which are the conditions that must be met before the use case can be executed. Continuing with the restaurant example, the customer must have money in their wallet and the cashier must be logged in to the system before the use case of ordering food can be executed.
-  * **Postconditions:** A list of the postconditions for the use case. This should be a list of the postconditions for the use case, which are the conditions that must be met after the use case has been executed. Continuing with the restaurant example, the customer must have their food and the cashier must have the customer's money after the use case of ordering food has been executed.
+Ben Jansson:
 
-  Darwin Peraza:
-  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+* **ID:** UC-1
+  * **Description:** The user can look through the products that we sell through pictures/decriptions and figure out what shoe they want to buy. 
+  * **Actors:** The only actors here would be the customer shopping given that the store is a online website.
+  * **Preconditions:** The website must be working for the customer to make a purchase and have a valid credit card to enter into the website to pay.
+  * **Postconditions:** The website should get the customers order and the customer must have entered their address for the website to ship the product to.
 
-  **UC-Login**
+* **ID:** UC-2
+  * **Description:** A comment section can be interacted with by the customer entering in their comment and psoting it to the website for other people to read.
+  * **Actors:** An actor would only be a customer, in this case who is commenting on the website.
+  * **Preconditions:** The website must ahve a comment section and for the comment entered to be posted on the website.
+  * **Postconditions:** The comment entered by the user needs to be posted and be able to be seen on the website.
 
-    **Description:** The user inputs both a valid email and password consistent with a user in the database to login to our website. 
-    **Actors:** The customer 
-    **Preconditions:** The customer must have already registered with a valid email and password. Then login with the appropriate credentials. 
-    **Postconditions:** The customer must be logged into their account. 
+  * **UC-Login**
+   * **Description:** The user inputs both a valid email and password * consistent with a user in the database to login to our website.
+   * **Actors:** The customer
+   * **Preconditions:** The customer must have already registered with a valid email and password. Then login with the appropriate credentials.
+   * **Postconditions:** The customer must be logged into their account.
 
-  **UC-SignUp**
 
-    **Description:** The user must create an account with the site using name, valid email, and valid password. 
-    **Actors:** The customer 
-    **Preconditions:** The user must have a valid email that can recieve emails. A password that fits safety constraints, and a name to attatch to the account. 
-    **PostCondition:** The user must be logged in with their account and have their previous wishlist load as well as cart if anything wasn't removed from last login session. 
+ * **UC-SignUp**
+   * **Description:** The user must create an account with the site using name, valid email, and valid password.
+   * **Actors:** The customer
+   * **Preconditions:** The user must have a valid email that can recieve emails. A password that fits safety constraints, and a name to attatch to the account.
+   * **PostCondition:** The user must be logged in with their account and have their previous wishlist load as well as cart if anything wasn't removed from last login session.
 
 ## User Stories
 
 In this section, you should list user stories for the project. User stories are a short description of how a user will be interacting with the system. Each group member must supply at least two user stories. Each user story should be written in the following format:
 
-* **ID:** A unique identifier for the user story. This should be a number that is unique across the entire document (something like US-1, US-2, etc. but be sure to replace the word `ID` with the unique identifier).
-  * **Type of User:** The type of user that the user story is for. This should be a single word that describes the type of user. For example, a user story for a customer might be `Customer` and a user story for an administrator might be `Admin`.
-  * **Description:** A description of the user story that gives a narrative from that user's perspective. This can be any length, but it must paint the picture of what the user wants to do, how they intend to do it, why they want to, and what they expect to happen.
+Ben Jansson:
 
-**US-Wishlist:**
+* **ID:** US-1
+  * **Type of User:** Customer
+  * **Description:** I want to look at pictures of different shoes that I want to buy, I expect to see the multiple different pictures/veiws of the product and buy the product I want
 
-  **Type:** Customer
-  **Description:** Customer logs in and sees a pair of shoes they would like.They look at their bank account and decide that this price isn't right for them. They then log in and then add that item to their wishlist. It is now stored in a list with other items he's waiting to buy and can see whenever he logs in. Additionally, he gets an email notification when it's on sale and waits until he can afford these shoes. 
+* **ID:** US-2
+  * **Type of User:** Customer
+  * **Description:** I have a comment on the product that I bought and would like to leave it on the website for people to see what I think about it, I expect to enter the comment on the wbesite and for the comment to be posted on the websitefor other people to see. 
 
-**US-CreateAccount:**
+* **US-Wishlist:**
+ **Type:** Customer
+ **Description:** Customer logs in and sees a pair of shoes they would like.They look at their bank account and decide that this price isn't right for them. They then log in and then add that item to their wishlist. It is now stored in a list with other items he's waiting to buy and can see whenever he logs in. Additionally, he gets an email notification when it's on sale and waits until he can afford these shoes.
 
-  **Type:** Customer 
-  **Description:** Customer sees an item they want to buy, then are prompted to create an account or continue as guest. 
-
+* **US-CreateAccount:**
+ **Type:** Customer
+ **Description:** Customer sees an item they want to buy, then are prompted to create an account or continue as guest.
 
 ## Glossary
 
@@ -134,5 +145,5 @@ In this section, you should list any terms that are used in the document that ma
 * **Term:** The term that is being defined. This should be a single word or phrase that is being defined.
   * **Definition:** A definition of the term. This should be a short description of the term that is being defined. This should be a single sentence that describes the term.
 
-**Version Control:**
-  **The practice of tracking and manging changes to a software
+* **Version Control:**
+ **Definition:** The practice of tracking and manging changes to a software
