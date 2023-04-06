@@ -56,35 +56,37 @@ Ben Jansson:
   * **Rationale:** This is very important so the customer can scroll through to see different veiws and see what shoes they want to look at and buy
   * **Testing:** Put a random image to see if it shows up and then the actaul picture of the product
 
-   **ID: req-trendList:**
- **Description:** This trending list would work like Amazon's shoppers like you love scroll section but keep track of the click through rates of all the products and then push the most popular ones.
- **Type:** Non-functional
- **Priority** This is a five
- **Rationale** This is a low prioriy because while it is a nice feauture that would push sales on a site, it isn't needed and doesn't change the functionality of the site.
- **Testing:** This requirement could be tested by clicking on items in specific orders/amounts and seeing whether or not they appear on the list.
+  Darwin Peraza:
+*   **ID: req-trendList:**
+ *  **Description:** This trending list would work like Amazon's shoppers like you love scroll section but keep track of the click through rates of all the products and then push the most popular ones.
+ *  **Type:** Non-functional
+ *  **Priority** This is a five
+ *  **Rationale** This is a low prioriy because while it is a nice feauture that would push sales on a site, it isn't needed and doesn't change the functionality of the site.
+ *  **Testing:** This requirement could be tested by clicking on items in specific orders/amounts and seeing whether or not they appear on the list.
 
 
-**ID: req-wishList**
- **Description:** This is a wishlist similar to Amazon, it creates a list of things you want and pushes and email when that thing is on sale/cheaper.
- **Type:** Non-functional
- **Priority:** This is a four
- **Rationale** This allows people to continue to come back to our store when their favorite things go on sale but doesn't affect the main functionality itself.
- **Testing**: See when an items price is lowered that an email notificaiton is sent and that wishlist items are kept in list.
+*  **ID: req-wishList**
+ *  **Description:** This is a wishlist similar to Amazon, it creates a list of things you want and pushes and email when that thing is on sale/cheaper.
+ *  **Type:** Non-functional
+ *  **Priority:** This is a four
+ *  **Rationale** This allows people to continue to come back to our store when their favorite things go on sale but doesn't affect the main functionality itself.
+ *  **Testing**: See when an items price is lowered that an email notificaiton is sent and that wishlist items are kept in list.
 
 
-**ID req-UserAccount**
- **Description:** This is a create account page that takes email and password login
- **Type:** Functional
- **Priority:** This is a two
- **Rationale** This is important as an account allows for things like cart and wishlist among other functionalities to work, also fosters customer loyalty.
- **Testing:** You could test by making sure the user is in the database when created.
+*  **ID req-UserAccount**
+  *  **Description:** This is a create account page that takes email and password login
+ *  **Type:** Functional
+ *  **Priority:** This is a two
+ *  **Rationale** This is important as an account allows for things like cart and wishlist among other functionalities to work, also fosters customer loyalty.
+ *  **Testing:** You could test by making sure the user is in the database when created.
 
 ## Constraints
 
 Ben Jansson constraints: 1) Using HTML for the website, while using html to create the website using a programming language might be better but would take a lot longer. 2) Another constraint might be to figure out what kind of shoe we want to sell mens, womens, kids, sytle, sports etc.
 
-**Developer Experience:**  When it comes to flask and python I have little experience leading to our vision not being completed exactly the way we want.
-**Version Control:** Version control is very hard for inexperienced github users, this can create issues in our work and delay it.
+Darwin Peraza:
+*  **Developer Experience:**  When it comes to flask and python I have little experience leading to our vision not being completed exactly the way we want.
+*  **Version Control:** Version control is very hard for inexperienced github users, this can create issues in our work and delay it.
 
 In this section, you should list any constraints that you have for the project. Each group member must supply at least two constraints. These can be constraints on the project itself, the software system, or the stakeholders. Constraints can be anything that limits the scope of the project. For example, that this project's template code is written using Flask and Python constitutes a constraint on the backend of the project. Constraints can also be things like the required timeline of the project. Be creative.
 
@@ -106,18 +108,20 @@ Ben Jansson:
   * **Preconditions:** The website must ahve a comment section and for the comment entered to be posted on the website.
   * **Postconditions:** The comment entered by the user needs to be posted and be able to be seen on the website.
 
-  **UC-Login**
-   **Description:** The user inputs both a valid email and password consistent with a user in the database to login to our website.
-   **Actors:** The customer
-   **Preconditions:** The customer must have already registered with a valid email and password. Then login with the appropriate credentials.
-   **Postconditions:** The customer must be logged into their account.
+Darwin Peraza:
+
+*  **UC-Login**
+   *  **Description:** The user inputs both a valid email and password consistent with a user in the database to login to our website.
+   *  **Actors:** The customer
+   *  **Preconditions:** The customer must have already registered with a valid email and password. Then login with the appropriate credentials.
+   *  **Postconditions:** The customer must be logged into their account.
 
 
- **UC-SignUp**
-   **Description:** The user must create an account with the site using name, valid email, and valid password.
-   **Actors:** The customer
-   **Preconditions:** The user must have a valid email that can recieve emails. A password that fits safety constraints, and a name to attatch to the account.
-   **PostCondition:** The user must be logged in with their account and have their previous wishlist load as well as cart if anything wasn't removed from last login session.
+* **UC-SignUp**
+   *  **Description:** The user must create an account with the site using name, valid email, and valid password.
+   *  **Actors:** The customer
+   *  **Preconditions:** The user must have a valid email that can recieve emails. A password that fits safety constraints, and a name to attatch to the account.
+   *  **PostCondition:** The user must be logged in with their account and have their previous wishlist load as well as cart if anything wasn't removed from last login session.
 
 
 ## User Stories
@@ -134,19 +138,17 @@ Ben Jansson:
   * **Type of User:** Customer
   * **Description:** I have a comment on the product that I bought and would like to leave it on the website for people to see what I think about it, I expect to enter the comment on the wbesite and for the comment to be posted on the websitefor other people to see. 
 
-  **US-Wishlist:**
- **Type:** Customer
- **Description:** Customer logs in and sees a pair of shoes they would like.They look at their bank account and decide that this price isn't right for them. They then log in and then add that item to their wishlist. It is now stored in a list with other items he's waiting to buy and can see whenever he logs in. Additionally, he gets an email notification when it's on sale and waits until he can afford these shoes.
+  Darwin Peraza:
+
+*  **US-Wishlist:**
+ *  **Type:** Customer
+ *  **Description:** Customer logs in and sees a pair of shoes they would like.They look at their bank account and decide that this price isn't right for them. They then log in and then add that item to their wishlist. It is now stored in a list with other items he's waiting to buy and can see whenever he logs in. Additionally, he gets an email notification when it's on sale and waits until he can afford these shoes.
 
 
-**US-CreateAccount:**
- **Type:** Customer
- **Description:** Customer sees an item they want to buy, then are prompted to create an account or continue as guest.
-
-* **ID:** A unique identifier for the user story. This should be a number that is unique across the entire document (something like US-1, US-2, etc. but be sure to replace the word `ID` with the unique identifier).
-  * **Type of User:** The type of user that the user story is for. This should be a single word that describes the type of user. For example, a user story for a customer might be `Customer` and a user story for an administrator might be `Admin`.
-  * **Description:** A description of the user story that gives a narrative from that user's perspective. This can be any length, but it must paint the picture of what the user wants to do, how they intend to do it, why they want to, and what they expect to happen.
-
+  **US-CreateAccount:**
+ *  **Type:** Customer
+ *  **Description:** Customer sees an item they want to buy, then are prompted to create an account or continue as guest.
+ 
 ## Glossary
 
 In this section, you should list any terms that are used in the document that may not be immediately obvious to a naive reader. Each group member must supply at least one term. Each term should be written in the following format:
