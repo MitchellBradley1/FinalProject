@@ -8,7 +8,7 @@ Fill the document out following the guidelines listed in each section. Maintain 
 
 * [Ben Jansson](bjansson@uncc.edu)
 * [Darwin Peraza](dperaza@uncc.edu)
-* [Monish Soundar Raj](mmailto:msoundar@uncc.edu)
+* [Monish Soundar Raj](mailto:msoundar@uncc.edu)
 * [Name](mmailto:email@uncc.edu)
 
 ## Revisions
