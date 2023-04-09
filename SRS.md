@@ -8,7 +8,7 @@ Fill the document out following the guidelines listed in each section. Maintain 
 
 * [Ben Jansson](bjansson@uncc.edu)
 * [Darwin Peraza](dperaza@uncc.edu)
-* [Name](mmailto:email@uncc.edu)
+* [Monish Soundar Raj](mmailto:msoundar@uncc.edu)
 * [Name](mmailto:email@uncc.edu)
 
 ## Revisions
@@ -80,6 +80,29 @@ Ben Jansson:
  *  **Rationale** This is important as an account allows for things like cart and wishlist among other functionalities to work, also fosters customer loyalty.
  *  **Testing:** You could test by making sure the user is in the database when created.
 
+Member - Monish Soundar Raj
+
+* **ID:** REQ-1. 
+  * **Description:** A search bar to search for the items in the web application. 
+  * **Type:** Functional.
+  * **Priority:** 4
+  * **Rationale:** It allows users to search products that they want instantly, instead of looking at all the products available in the site.
+  * **Testing:** By searching for products of specific brands myself before making the site public.
+
+* **ID:** REQ-2. 
+  * **Description:** A product siplay page to show the products in a enlarged view, and to display all the product description, price, and quality selection. 
+  * **Type:** Functional.
+  * **Priority:** 2
+  * **Rationale:** It allows users to view the products enlarged images, description -> to learn about the product, and to add no of quality. 
+  * **Testing:** By displaying and checking the products details in this page at each building stage of the site. 
+
+  * **ID:** REQ-3. 
+  * **Description:**  A review section for each product.
+  * **Type:** Functional.
+  * **Priority:** 3
+  * **Rationale:** It allows users to decided which product to buy based on the review from the previous users of the same product.
+  * **Testing:** By populating the review section of the products with fake reviews and by asking some real people to post the fake reviews for some products. 
+
 ## Constraints
 
 Ben Jansson constraints: 1) Using HTML for the website, while using html to create the website using a programming language might be better but would take a lot longer. 2) Another constraint might be to figure out what kind of shoe we want to sell mens, womens, kids, sytle, sports etc.
@@ -87,6 +110,12 @@ Ben Jansson constraints: 1) Using HTML for the website, while using html to crea
 Darwin Peraza:
 *  **Developer Experience:**  When it comes to flask and python I have little experience leading to our vision not being completed exactly the way we want.
 *  **Version Control:** Version control is very hard for inexperienced github users, this can create issues in our work and delay it.
+
+Monish Soundar Raj constraints:
+
+1) Time available to complete the project is minor.
+2) As the template code is written in Flask, it might be time consuming to learn about it first before working on the project.
+
 
 In this section, you should list any constraints that you have for the project. Each group member must supply at least two constraints. These can be constraints on the project itself, the software system, or the stakeholders. Constraints can be anything that limits the scope of the project. For example, that this project's template code is written using Flask and Python constitutes a constraint on the backend of the project. Constraints can also be things like the required timeline of the project. Be creative.
 
@@ -123,6 +152,20 @@ Darwin Peraza:
    *  **Preconditions:** The user must have a valid email that can recieve emails. A password that fits safety constraints, and a name to attatch to the account.
    *  **PostCondition:** The user must be logged in with their account and have their previous wishlist load as well as cart if anything wasn't removed from last login session.
 
+Member - Monish Soundar Raj
+
+* **ID:** UC-1
+  * **Description:** Searching for shoes by brand.
+  * **Actors:** User, Online Shoe store.
+  * **Preconditions:** The user clicks on the search bar located in the nav-bar to make it active and searches to find shoes of a specific brand.
+  * **Postconditions:** The user is presented with a page displaying the shoes of the brand the user searched for.
+
+  * **ID:** UC-2
+  * **Description:** Viewing product details to make a purchase.
+  * **Actors:** User, Online Shoe store.
+  * **Preconditions:** The user clicks on the product that they wanted to learn more about. 
+  * **Postconditions:** The user is displayed with a product display page, which shows the user the selected product desciption, price, let's users select the quantity, let's users select the size and let's user to add the product to cart or buy it with one click.
+
 
 ## User Stories
 
@@ -149,6 +192,16 @@ Ben Jansson:
  *  **Type:** Customer
  *  **Description:** Customer sees an item they want to buy, then are prompted to create an account or continue as guest.
  
+ Member - Monish Soundar Raj
+
+* **ID:** US-1
+  * **Type of User:**  Customer
+  * **Description:**  As an online shoe shopper, I should be able to read reviews written by others who previously brought the same product, so that I can make my decision on whether to purchase a product or not. And also, I need to be able to leave a review on a product I purchase, to help the future customer choose a product.
+
+  * **ID:** US-2
+  * **Type of User:**  Customer
+  * **Description:**  As an online shoe shopper, I should be able to search for specific brand shoes, I donot want to look at all the brand shoes without having a interest to purchase them. So, having a search bar allows me look up prodcuts fast and complete the purchase soon. 
+
 ## Glossary
 
 In this section, you should list any terms that are used in the document that may not be immediately obvious to a naive reader. Each group member must supply at least one term. Each term should be written in the following format:
