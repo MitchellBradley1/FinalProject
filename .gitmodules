@@ -1,0 +1,3 @@
+[submodule "onlineStoreTemplate"]
+	path = onlineStoreTemplate
+	url = https://github.com/Darwin2001/onlineStoreTemplate.git
